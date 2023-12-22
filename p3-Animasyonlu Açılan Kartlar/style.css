@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Raleway&family=Rubik+Doodle+Shadow&family=Titillium+Web&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+body{
+    font-family: 'Raleway',sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    height: 600px;
+   border: solid black;
+   justify-content: center;
+   align-items: center;
+   padding: 0px 30px;
+ 
+}
+
+.item{
+    height: 500px;
+    border: solid;
+    border-radius: 15px;
+    border-color: brown;
+    padding: 5px;
+    margin: 0px 5px;
+    width: 100px;
+   cursor: pointer;
+   transition: 300ms all;
+}
+
+
+.active{ 
+    height: 500px;
+    border: solid;
+    border-radius: 15px;
+    border-color: brown;
+    padding: 5px;
+    margin: 0px 5px;
+    width: 400px;
+   cursor: pointer;
+   transition: 300ms all;
+}
+
